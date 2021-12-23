@@ -1,0 +1,8 @@
+filt.cpp: In function ‘void printVals(std::vector<int>)’:
+filt.cpp:39:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    for(int i=0;i<nums.size();i++){
+                 ^
+filt.cpp: In function ‘std::vector<int> valsGT0(std::vector<int>)’:
+filt.cpp:49:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int i = 0; i < nums.size(); i++){
+                    ^

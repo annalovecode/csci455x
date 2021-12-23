@@ -1,0 +1,15 @@
+Name: Anna Zhao Divij Satija
+USC NetID: 
+CSCI 455 Fall 2021
+Lab 10
+
+
+Ex 2 (list of test cases and expected results)
+doOneTest(createStack("1 2 3 2 4 5")); expected results: 1 3 5
+doOneTest(createStack("")); expected results: 
+doOneTest(createStack("1")); expected results: 1
+doOneTest(createStack("1 3")); expected results: 1 3
+doOneTest(createStack("1 3 4 7")); expected results: 1 3 7
+
+
+

@@ -1,0 +1,15 @@
+Stack before: [1, 2, 3, 2, 4, 5] <-- top
+Stack after removeEvens: [1, 3, 5] <-- top
+
+Stack before: [] <-- top
+Stack after removeEvens: [] <-- top
+
+Stack before: [1] <-- top
+Stack after removeEvens: [1] <-- top
+
+Stack before: [1, 3] <-- top
+Stack after removeEvens: [1, 3] <-- top
+
+Stack before: [1, 3, 4, 7] <-- top
+Stack after removeEvens: [1, 3, 7] <-- top
+

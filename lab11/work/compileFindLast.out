@@ -1,0 +1,10 @@
+filt.cpp: In function ‘int main()’:
+filt.cpp:15:13: error: ‘nums’ was not declared in this scope
+   //cout << "% filt < somevals";
+             ^
+filt.cpp: In function ‘void printVals(std::vector<int>)’:
+filt.cpp:33:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    while(cin >> vals){
+                 ^
+filt.cpp: In function ‘std::vector<int> valsGT0(std::vector<int>)’:
+filt.cpp:43:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]

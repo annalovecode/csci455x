@@ -1,0 +1,42 @@
+<p> </p>
+Matching? true (Expected result: true)
+
+<p> <p>
+Matching? true (Expected result: false) FAILED
+
+<p> </q>
+Matching? true (Expected result: false) FAILED
+
+<p>
+Matching? true (Expected result: false) FAILED
+
+no-tag file is fine
+Matching? true (Expected result: false) FAILED
+
+</p>
+Matching? true (Expected result: false) FAILED
+
+<p> <q> </p> </q>
+Matching? true (Expected result: false) FAILED
+
+<p> <ul> <li> </li> </ul> <a> </a> </p>
+Matching? true (Expected result: true)
+
+<p> <ul> <li> </li> </ul> <a> </p>
+Matching? true (Expected result: false) FAILED
+
+<p> <ul> <li> </li> </ul> <a> </a>
+Matching? true (Expected result: false) FAILED
+
+<p> <ul> <li> </li> </ul> <a> </a> </p> </p>
+Matching? true (Expected result: false) FAILED
+
+<p> <ul> <li> <a> </a> </li> </ul> <a> </a> </p>
+Matching? true (Expected result: true)
+
+<p> xxx <ul> yyy <li> zzz </li> www xxx </ul> yyy <a> </a> zzz </p> mmm
+Matching? true (Expected result: true)
+
+<p> xxx <ul> yyy <li> zzz </li> www xxx yyy <a> </a> zzz </p> mmm
+Matching? true (Expected result: false) FAILED
+

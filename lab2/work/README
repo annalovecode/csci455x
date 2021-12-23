@@ -1,0 +1,47 @@
+Name:Anna Zhao
+USC NetID:annaz
+CSCI 455 Fall 2021
+Lab 2
+
+Note: All students (or partnerships) should put their answers to the lab questions in this file.
+
+1.1:
+java.time.LocalDate
+
+1.2:
+LocalDate myDate=LocalDate.of(1995,1,20);
+
+1.3:
+System.out.println(myDate.getMonthValue()+"/"+myDate.getDayOfMonth()+"/"+myDate.getYear()); 
+
+1.4:
+LocalDate laterDate=myDate.plusDays(20);
+
+1.5:
+myDate=myDate.plusDays(20);
+
+2.1:
+Date.java:5: error: cannot find symbol                                                                                                                                                                                                                                        
+        System.out.println(myDate.getMonthValue()+"/"+myDate.getDayofMonth()+"/"+myDate.getYear());                                                                                                                                                                           
+                                                            ^                                                                                                                                                                                                                 
+  symbol:   method getDayofMonth()                                                                                                                                                                                                                                            
+  location: variable myDate of type LocalDate                                                                                                                                                                                                                                 
+1 error 
+
+Date.java:6: error: non-static method plusDays(long) cannot be referenced from a static context                                                                                                                                                                               
+        System.out.println(LocalDate.plusDays(20));                                                                                                                                                                                                                           
+                                    ^                                                                                                                                                                                                                                         
+1 error 
+
+
+ex3:
+3.1:
+if(nowDate.get()-birthdayDate.get()<0) 
+no suitable method found for get()
+                                       
+3.2:
+bad operand types for binary operator '-'                                                                                                                                                                                         if(nowDate-birthdayDate<0) 
+
+ex4:
+
+

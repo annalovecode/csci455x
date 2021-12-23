@@ -1,0 +1,65 @@
+Name:Anna Zhao
+USC NetID:annaz
+CSCI 455 Fall 2021
+Lab 1
+
+Note: All students should put their answers to the lab questions in this file.
+ex1:
+1.pwd
+/mnt/data2/students/sub1/ddd_v1_w_9sxY_659769/asn500268_2/asn500269_1/work     
+2.ls
+Hello.java  README 
+3.mkdir ex1
+cd ex1
+/mnt/data2/students/sub1/ddd_v1_w_9sxY_659769/asn500268_2/asn500269_1/work/ex1  
+4.cd ~
+cd ..
+5.
+(1)cd ..
+ls
+(2)ls ..
+6.cp ~/Hello.java ~/ex1/Hello.java
+7.mkdir ~/lab1
+8.copy Hello.java in ex1 to lab1
+9.cd ./lab1/ex1
+10.home directory
+11.mkdir ../foo
+12.cd ../foo
+13.ls ../ex1
+ex2:
+cd ~/ex1
+javac Hello.java
+java Hello
+ex3:
+ Hello.java:7: error: ';' expected                                                                          
+      System.out.println("Hello world!")                                                                   
+                                        ^                                                                  
+1 error
+
+
+Hello.java:7: error: unclosed string literal                                                               
+      System.out.println("Hello world!)                                                                    
+                         ^                                                                                 
+Hello.java:7: error: ';' expected                                                                          
+      System.out.println("Hello world!)                                                                    
+                                       ^                                                                   
+Hello.java:10: error: reached end of file while parsing                                                    
+}                                                                                                          
+ ^                                                                                                         
+3 errors  
+
+3.2:reached end of file while parsing                                                    
+}                
+
+
+
+ex5:
+5.1;a:All necessary files are present: 'Name.java README' (Passed)               
+ b:======= End of Report =======
+5.2:Yes
+
+
+
+
+
+

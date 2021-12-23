@@ -1,0 +1,30 @@
+Name: Divij Satija, Anna Zhao
+USC NetID: dsatija, 
+CSCI 455 Fall 2021
+Lab 3
+
+Note: On-campus students can put their answers to the lab questions in this file, or in a text file created in another text editor, or use a piece of paper they can show to their lab TA.  DEN students will need to put their answers in this README, so they will get submitted.
+
+
+1.1.
+
+Formula for change in the expected result
+= Total payment made (2.50) - Total purchase made (2.25)
+= Change (0.25)
+
+1.2.
+
+We get the rounding off error because of double being used in the class. This happens because of double being a high precision data type.
+
+-------
+
+2.1.
+
+No, it is not the right answer. We still get a rounding error.
+
+-------
+
+3.1.
+
+cp *  ../ex3/
+
